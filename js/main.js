@@ -16,4 +16,22 @@
 
 })();
 
+(() => {
+
+  let item = document.querySelectorAll('.maximenuck_item');
+
+  for (let i = 0; i < item.length; i++) {
+    item[i].addEventListener('click', menuDrop);
+  }
+
+  function menuDrop() {
+    let paren = this.closest('.maximenuck.level1');
+    let box = paren.querySelector('.maximenuck_box');
+    box.classList.toggle('active');
+  }
+
+
+
+})();
+
 
