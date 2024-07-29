@@ -1,0 +1,100 @@
+/* Maximenu CK mobile - http://www.joomlack.fr */
+/* Automatic styles generated from the plugin options */
+
+.mobilebarmaximenuck {display:none;position:relative;left:0;top:0;right:0;z-index:100;}
+.mobilebarmaximenuck .mobilebarmenutitleck {display: block;padding-right: 50px;font-size: 20px;color: #222222;text-align: right;text-indent: 30px;line-height: 58px;height: 60px;}
+.mobilebarmaximenuck .mobilebuttonmaximenuck {cursor:pointer;box-sizing: border-box;position:absolute; top: 0; right: 0;line-height:0.8em;font-family:Segoe UI;text-align: center;font-size: 40px;color: #222222;line-height: 56px;height: 60px;width: 50px;}
+.mobilemaximenuck {box-sizing: border-box;width: 100%;margin-bottom: 10px;background: rgba(255,255,255,1);background-color: rgba(255,255,255,1);-moz-box-shadow: 1px 1px 2px 0px #CBCBCB;-webkit-box-shadow: 1px 1px 2px 0px #CBCBCB;box-shadow: 1px 1px 2px 0px #CBCBCB;border-right: #EEEEEE 2px solid ;font-size: 15px;color: #222222;}
+.mobilemaximenuck .mobilemaximenucktopbar {position:relative;}
+.mobilemaximenuck .mobilemaximenucktitle {display: block;padding-left: 14px;margin-right: 0px;margin-left: 0px;background: #b39364;background-color: #b39364;border-bottom: #FFFFFF 1px solid ;font-size: 20px;color: #FFFFFF;text-align: left;text-indent: 8px;line-height: 60px;height: 62px;}
+.mobilemaximenuck .mobilemaximenuckclose {cursor:pointer;box-sizing: border-box;position:absolute; top: 0; right: 0;line-height:0.8em;font-family:Segoe UI;text-align: center;margin-bottom: 0px;margin-left: 0px;font-size: 40px;color: #FFFFFF;line-height: 55px;height: 60px;width: 56px;}
+.mobilemaximenuck a {display:block;color: #222222;}
+.mobilemaximenuck a:hover {text-decoration: none;}
+.mobilemaximenuck div.maximenuck {position:relative;}
+.mobilemaximenuck div.level1.maximenuck > a {padding-top: 7px;padding-bottom: 7px;padding-left: 20px;margin-top: 0px;margin-right: 10px;margin-bottom: 0px;margin-left: 10px;background: rgba(255,255,255,0.05);background-color: rgba(255,255,255,0.05);border-bottom: #EEEEEE 1px solid ;font-size: 18px;color: #222222;line-height: 35px;}.mobilemaximenuck div.level2.maximenuck > a {padding-top: 5px;padding-bottom: 5px;padding-left: 20px;margin-top: 5px;margin-right: 10px;margin-bottom: 5px;margin-left: 10px;background: rgba(255,255,255,0.05);background-color: rgba(255,255,255,0.05);border-bottom: #EEEEEE 1px solid ;font-size: 18px;color: #222222;line-height: 35px;}.mobilemaximenuck div.level2.maximenuck + .mobilemaximenucksubmenu div.maximenuck > a {padding-top: 5px;padding-bottom: 5px;padding-left: 20px;margin-top: 5px;margin-right: 10px;margin-bottom: 5px;margin-left: 10px;background: rgba(255,255,255,0.05);background-color: rgba(255,255,255,0.05);border-bottom: #EEEEEE 1px solid ;font-size: 18px;color: #222222;line-height: 35px;}/* for accordion */
+.mobilemaximenuck .mobilemaximenucktogglericon:after {cursor:pointer;text-align:center;margin-right: 30px;font-size: 30px;color: #222222;line-height: 35px;height: 35px;width: 35px;}
+.mobilemaximenuck .mobilemaximenucktogglericon:after {display:block;position: absolute;right: 0;top: 0;content:"+";}
+.mobilemaximenuck .open .mobilemaximenucktogglericon:after {content:"-";}
+
+
+
+
+.mobilemaximenuck div span.descck {
+    padding-left: 10px;
+    font-size: 14px;
+}
+.mobilebarmaximenuck .mobilebuttonmaximenuck {
+font-family: 'robotoregular';
+font-weight: normal;
+font-style: normal;
+}
+
+div.mobilemaximenuckitem .maximenuck > a {
+    text-decoration: none;
+}
+div.mobilemaximenuckitem .maximenuck.active > a {
+    background: #eee;
+    color: #000000;
+}
+div.mobilemaximenuckitem .maximenuck > a:hover {
+    background: #f6f6f6;
+    color: #000;
+}
+div.mobilemaximenuckitem .maximenuck.active > a:hover {
+    background: #f6f6f6;
+    color: #000;
+}
+.mobilemaximenuck div.level2.maximenuck > a::before {
+    content: "- ";
+    display: block;
+    float: left;
+    height: 100%;
+    margin-right: 3px;
+}
+.mobilemaximenuck div.level3.maximenuck > a::before {
+    content: "-- ";
+    display: block;
+    float: left;
+    height: 100%;
+    margin-right: 3px;
+}
+
+.mobilemaximenucktitle.mobilemaximenuckbackbutton::before {
+	content: url(images/back.png);
+    display: block;
+    float: left;
+    height: 100%;
+    margin-right: 3px;
+}
+
+.mobilemaximenuck .active .mobilemaximenucktogglericon::after {
+	color: #fff;
+	font-family: 'robotoregular';
+    font-weight: normal;
+    font-style: normal;
+}
+div[id^="maximenuck"].mobilemaximenuck,
+div[id^="maximenuck"].mobilemaximenuck .mobilemaximenuckclose {
+ font-family: 'robotoregular';
+    font-weight: normal;
+    font-style: normal;
+}
+div[id^="maximenuck"].mobilemaximenuck.active {
+  display: block !important;
+}
+
+
+.mobilemaximenuckclose:hover {
+  color: #222;
+}
+
+div[id^="maximenuck"].mobilemaximenuck .mobilemaximenucktogglericon::after {
+	content: url(/images/vmr.png);
+	top: 4px;
+}
+
+/* телефон */
+.mobilemaximenuck div span.descck {
+    padding-left: 10px;
+    font-size: 14px;
+}
