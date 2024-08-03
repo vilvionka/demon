@@ -48,6 +48,18 @@ ol {
   padding: 0 0 0 30px;
 }
 
+ul.sigProContainer {
+  padding: 0px;
+}
+
+.redevelopment_finish {
+  max-width: 700px;
+  color: #b37b64;
+  text-align: center;
+  margin: 50px auto 90px auto;
+  font-size: 18px;
+}
+
 p {
   margin: 0 0 20px;
 }
@@ -146,7 +158,7 @@ h6 {
 
 .item-page h5,
 .item-page h6 {
-  font-family: 'robotoregular';
+  font-weight: normal !important;
 }
 
 .home #cyb-main {
@@ -789,6 +801,8 @@ ul.sigProResponsive li.sigProThumb a.sigProLink {
   text-decoration: none;
   background-color: #fff;
   border: 6px solid #DDDDDD;
+  height: 220px;
+  box-sizing: border-box;
 }
 
 /* Основной текст на главной */
@@ -1254,10 +1268,30 @@ ul.tabs__caption2 {
   padding: 7px 0;
 }
 
+.tabs__content h3 {
+  color: #222222;
+  font-weight: bold;
+}
+
 .tabs__content.active,
 .tabs__content2.active {
   display: block;
   color: #000000;
+}
+
+.table_subtittle {
+  margin-bottom: 35px;
+  color: #b37b64;
+  font-size: 14px;
+  margin-top: -10px;
+  font-weight: bold;
+}
+.table_subtittle span{
+  margin-bottom: 0px;
+  color: #b37b64;
+  font-size: 14px;
+  margin-top: -10px;
+  display: block;
 }
 
 .tabs__caption li a,
@@ -1578,10 +1612,12 @@ table.b50 p {
   padding-bottom: 20px;
   margin-top: 100px;
 }
-.footer .container{
+
+.footer .container {
   padding: 0px !important;
 }
-.kopi .container{
+
+.kopi .container {
   padding: 0px !important;
 }
 
@@ -1753,17 +1789,14 @@ div.im_zoom {
 }
 
 .plan_table thead {
-  background: rgb(24, 141, 204);
-  background: -moz-linear-gradient(top, rgba(24, 141, 204, 1) 0%, rgba(19, 98, 163, 1) 100%);
-  background: -webkit-linear-gradient(top, rgba(24, 141, 204, 1) 0%, rgba(19, 98, 163, 1) 100%);
-  background: linear-gradient(to bottom, rgba(24, 141, 204, 1) 0%, rgba(19, 98, 163, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#188dcc', endColorstr='#1362a3', GradientType=0);
+  background: #b39364;
+  background: linear-gradient(to bottom, rgba(179, 149, 100, 1) 0%, rgb(184, 154, 107) 100%);
   padding: 7px 22px;
   font-size: 15px;
   text-transform: uppercase;
   color: #fff;
   border-radius: 5px;
-  border: 1px solid #1462A2;
+  border: 1px solid #b37b64;
   text-align: center;
 }
 
@@ -1929,6 +1962,9 @@ body .plan_table a.b24-web-form-popup-btn-5.sd {
   position: relative;
 }
 
+.ppt_common {
+  margin-bottom: 65px;
+}
 
 
 /* Адаптация */
@@ -2683,6 +2719,10 @@ body .plan_table a.b24-web-form-popup-btn-5.sd {
     margin: 3px 0 0 0;
   }
 
+  .ppt_common {
+    margin-bottom: 45px;
+  }
+
 
 }
 
@@ -2819,12 +2859,10 @@ body a.b24-web-form-popup-btn-5.sdk {
 }
 
 body a.b24-web-form-popup-btn-5.sd {
-  background: rgb(244, 0, 0);
-  background: -moz-linear-gradient(top, rgba(244, 0, 0, 1) 0%, rgba(206, 0, 0, 1) 100%);
-  background: -webkit-linear-gradient(top, rgba(244, 0, 0, 1) 0%, rgba(206, 0, 0, 1) 100%);
-  background: linear-gradient(to bottom, rgba(244, 0, 0, 1) 0%, rgba(206, 0, 0, 1) 100%);
+  background: #6491b3;
+  background: linear-gradient(to bottom, #6491b3 0%, #729ab9 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f40000', endColorstr='#ce0000', GradientType=0);
-  border: 1px solid #cf0404;
+  border: 1px solid #6467b3;
   color: #fff;
   text-decoration: none;
   padding: 6px 22px;
@@ -3328,7 +3366,8 @@ a.fancybox-button img {
   object-fit: cover;
   object-position: center;
 }
-.trigger_header{
+
+.trigger_header {
   color: #222;
   font-weight: bold;
   margin-left: -23px;
@@ -3336,6 +3375,14 @@ a.fancybox-button img {
   font-size: 20px;
   width: 260px;
   text-align: center;
+}
+
+.subtittle_redevelopment {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
 }
 
 @media (max-width: 1080px) {
@@ -3390,7 +3437,8 @@ a.fancybox-button img {
     width: calc(100%);
     margin-bottom: 10px;
   }
-  .wall_icon_box_item b{
+
+  .wall_icon_box_item b {
     min-height: initial;
   }
 
@@ -3413,10 +3461,23 @@ a.fancybox-button img {
   .foto_flex li:nth-child(2n) {
     margin-right: 0px;
   }
-  .footer .custom p:nth-child(1){
+
+  .footer .custom p:nth-child(1) {
     font-size: 14px;
   }
-  .kopi p{
+
+  .kopi p {
     font-size: 13px;
+  }
+
+  .redevelopment_finish {
+    margin: 0px auto 50px auto;
+    font-size: 16px;
+  }
+
+  .subtittle_redevelopment {
+    font-size: 16px;
+    text-align: left;
+    margin: 0 auto 20px auto;
   }
 }
