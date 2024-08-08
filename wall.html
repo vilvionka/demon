@@ -446,18 +446,18 @@
               <div class="itemBody">
                 <div class="tabs">
                   <ul class="tabs__caption">
-                    <a href="#" class="active">Кирпич</a>
-                    <a href="#" class="">ГКЛ</a>
-                    <a href="#" class="">Дерево</a>
-                    <a href="#" class="">Блоки</a>
-                    <a href="#" class="">Бетон</a>
-                    <a href="#" class="">Штукатурка</a>
-                    <a href="#" class="">Плитка</a>
-                    <a href="#" class="">Краска</a>
-                    <a href="#" class="">Обои</a>
+                    <a href="#kirpich" class="active">Кирпич</a>
+                    <a href="#gkl" class="">ГКЛ</a>
+                    <a href="#derevo" class="">Дерево</a>
+                    <a href="#bloki" class="">Блоки</a>
+                    <a href="#beton" class="">Бетон</a>
+                    <a href="#shtukaturka" class="">Штукатурка</a>
+                    <a href="#plitka" class="">Плитка</a>
+                    <a href="#kraska" class="">Краска</a>
+                    <a href="#oboi" class="">Обои</a>
                   </ul>
                   <div class="tabs__content active">
-                    <table class="table">
+                    <table class="table" id="kirpich">
                       <thead>
                         <tr>
                           <th> Перечень услуг (кирпич) </th>
@@ -591,7 +591,7 @@
                       </tbody>
                     </table>
 
-                    <table class="table">
+                    <table class="table" id="gkl">
                       <thead>
                         <tr>
                           <th>Перечень услуг (ГКЛ (гипрок)</th>
@@ -671,7 +671,7 @@
                       </tbody>
                     </table>
 
-                    <table class="table">
+                    <table class="table" id="derevo">
                       <thead>
                         <tr>
                           <th> Перечень услуг (дерево) </th>
@@ -873,7 +873,7 @@
                         </tr>
                       </tbody>
                     </table>
-                    <table class="table">
+                    <table class="table" id="bloki">
                       <thead>
                         <tr>
                           <th> Перечень услуг (блоки) </th>
@@ -964,7 +964,7 @@
                       </tbody>
                     </table>
 
-                    <table class="table">
+                    <table class="table" id="beton">
                       <thead>
                         <tr>
                           <th> Перечень услуг (бетон) </th>
@@ -1110,7 +1110,7 @@
                       </tbody>
                     </table>
 
-                    <table class="table">
+                    <table class="table" id="shtukaturka">
                       <thead>
                         <tr>
                           <th> Перечень услуг (штукатурка) </th>
@@ -1156,7 +1156,7 @@
                       </tbody>
                     </table>
 
-                    <table class="table">
+                    <table class="table" id="plitka">
                       <thead>
                         <tr>
                           <th> Перечень услуг (плитка) </th>
@@ -1223,7 +1223,7 @@
                       </tbody>
                     </table>
 
-                    <table class="table">
+                    <table class="table" id="kraska">
                       <thead>
                         <tr>
                           <th> Перечень услуг (краска) </th>
@@ -1290,7 +1290,7 @@
                       </tbody>
                     </table>
 
-                    <table class="table">
+                    <table class="table" id="oboi">
                       <thead>
                         <tr>
                           <th> Перечень услуг (обои) </th>
@@ -1336,7 +1336,7 @@
       <div class="row">
         <div class="col-md-12 col-xs-12 col-sm-12 bz-one">
           <div class="moduletable">
-            <h4>АКЦИЯ! ТОЛЬКО В ИЮЛЕ СКИДКИ НА ДЕМОНТАЖ КВАРТИРЫ!</h4>
+            <h4>АКЦИЯ! ТОЛЬКО В <span id="month">ИЮЛЕ</span> СКИДКИ НА ДЕМОНТАЖ КВАРТИРЫ!</h4>
           </div>
         </div>
         <div class="col-md-12 col-xs-12 col-sm-12">
@@ -2204,6 +2204,7 @@
       </div>
     </div>
   </section>
+
   <section class="review">
     <div class="container">
       <h2>Отзывы клиентов</h2>
@@ -2488,7 +2489,7 @@
 
   <script src="./js/main.js"></script>
   <script src="./js/bootstrap.min.js"></script>
-
+  <script src="./js/init.js"></script>
   <script src="./js/scripts.js"></script>
 
 

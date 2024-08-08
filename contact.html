@@ -433,18 +433,18 @@
     <div class="container">
       <h2>Видео. Фото. Полезные советы. Контакты.</h2>
       <ul class="tabs__caption">
-        <a href="#" class="active">Фото</a>
-        <a href="#" class="">Видео</a>
-        <a href="#" class="">Полезные советы</a>
-        <a href="#" class="">Контакты</a>
+        <a href="#foto" class="active">Фото</a>
+        <a href="#video" class="">Видео</a>
+        <a href="#sovet" class="">Полезные советы</a>
+        <a href="#contact" class="">Контакты</a>
       </ul>
-      <h3>Видео. </h3>
+      <h3 id="video">Видео. </h3>
       <div class="contact_flex">
         <div class="contact_flex_item"></div>
         <div class="contact_flex_item"></div>
         <div class="contact_flex_item"></div>
       </div>
-      <h3>Фото наших работ. </h3>
+      <h3 id="foto">Фото наших работ. </h3>
       <div>
         <ul class="foto_flex">
           <li class="sigProThumb">
@@ -867,7 +867,7 @@
           </span>
         </span>
       </li>
-      <li class="sigProThumb" id="sovet">
+      <li class="sigProThumb">
         <span class="sigProLinkOuterWrapper">
           <span class="sigProLinkWrapper">
             <a href="./images/gallery/potolok/35.jpg" class="sigProLink fancybox-button"
@@ -881,7 +881,7 @@
       </ul>
     </div>
 
-    <h3>Полезные советы. </h3>
+    <h3  id="sovet">Полезные советы. </h3>
     <div class="contact_subtittle">Советы по демонтажу пола в зависимости от его типа: </div>
     <b class="b_contact">Деревянный пол: </b>
     <p>Подготовьте инструменты: молоток, топор, монтировка, пила для распила досок, шуруповёрт, гвоздодер и мешки для
@@ -1039,7 +1039,7 @@
     </div>
   </section>
 
-  <section class="contact_form">
+  <section class="contact_form" id="contact">
     <div class="container">
       <form>
         <h2>Остались вопросы?</h2>
@@ -1258,7 +1258,7 @@
 
   <script src="./js/main.js"></script>
   <script src="./js/bootstrap.min.js"></script>
-
+  <script src="./js/init.js"></script>
   <script src="./js/scripts.js"></script>
 
 

@@ -444,14 +444,14 @@
               <div class="itemBody">
                 <div class="tabs">
                   <ul class="tabs__caption">
-                    <a href="#" class="active">ГКЛ</a>
-                    <a href="#" class="">Штукатурка</a>
-                    <a href="#" class="">Плитка</a>
-                    <a href="#" class="">Обои</a>
-                    <a href="#" class="">Краска</a>
+                    <a href="#gkl" class="active">ГКЛ</a>
+                    <a href="#shtukaturka" class="">Штукатурка</a>
+                    <a href="#plitka" class="">Плитка</a>
+                    <a href="#oboi" class="">Обои</a>
+                    <a href="#kraska" class="">Краска</a>
                   </ul>
                   <div class="tabs__content active">
-                    <table class="table">
+                    <table class="table" id="gkl">
                       <thead>
                         <tr>
                           <th>Перечень услуг (ГКЛ (гипрок), прочее) </th>
@@ -576,7 +576,7 @@
                       </tbody>
                     </table>
 
-                    <table class="table">
+                    <table class="table" id="shtukaturka">
                       <thead>
                         <tr>
                           <th>Перечень услуг (штукатурка) </th>
@@ -633,7 +633,7 @@
                       </tbody>
                     </table>
 
-                    <table class="table">
+                    <table class="table" id="plitka">
                       <thead>
                         <tr>
                           <th> Перечень услуг (плитка) </th>
@@ -678,7 +678,7 @@
                         </tr>
                       </tbody>
                     </table>
-                    <table class="table">
+                    <table class="table" id="kraska">
                       <thead>
                         <tr>
                           <th> Перечень услуг (краска) </th>
@@ -772,7 +772,7 @@
                       </tbody>
                     </table>
 
-                    <table class="table">
+                    <table class="table" id="oboi">
                       <thead>
                         <tr>
                           <th> Перечень услуг (обои) </th>
@@ -818,7 +818,7 @@
       <div class="row">
         <div class="col-md-12 col-xs-12 col-sm-12 bz-one">
           <div class="moduletable">
-            <h4>АКЦИЯ! ТОЛЬКО В ИЮЛЕ СКИДКИ НА ДЕМОНТАЖ КВАРТИРЫ!</h4>
+            <h4>АКЦИЯ! ТОЛЬКО В <span id="month">ИЮЛЕ</span> СКИДКИ НА ДЕМОНТАЖ КВАРТИРЫ!</h4>
           </div>
         </div>
         <div class="col-md-12 col-xs-12 col-sm-12">
@@ -1950,7 +1950,7 @@
 
   <script src="./js/main.js"></script>
   <script src="./js/bootstrap.min.js"></script>
-
+  <script src="./js/init.js"></script>
   <script src="./js/scripts.js"></script>
 
 
