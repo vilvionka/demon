@@ -15,6 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
   <link href="css/maximenuckmobile.css" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/temp.css" rel="stylesheet">
@@ -1621,7 +1622,7 @@
     </div>
   </section>
 
-  
+
 
   <section class="foto">
     <div class="container">
@@ -1631,8 +1632,7 @@
           <li class="sigProThumb">
             <span class="sigProLinkOuterWrapper">
               <span class="sigProLinkWrapper">
-                <a href="./images/gallery/ceiling/1.jpg" class="sigProLink fancybox-button"
-                  rel="fancybox-button[gallerya638e8de0b]" target="_blank">
+                <a href="./images/gallery/ceiling/1.jpg" class="sigProLink fancybox-button" data-fancybox="gallery">
                   <img class="sigProImg" src="./images/gallery/ceiling/1.jpg" alt="img">
                   <div class="im_zoom" style="position: absolute; display: none;"></div>
                 </a>
@@ -1642,8 +1642,7 @@
           <li class="sigProThumb">
             <span class="sigProLinkOuterWrapper">
               <span class="sigProLinkWrapper">
-                <a href="./images/gallery/ceiling/2.jpg" class="sigProLink fancybox-button"
-                  rel="fancybox-button[gallerya638e8de0b]" target="_blank">
+                <a href="./images/gallery/ceiling/2.jpg" class="sigProLink fancybox-button" data-fancybox="gallery">
                   <img class="sigProImg" src="./images/gallery/ceiling/2.jpg" alt="img">
                   <div class="im_zoom" style="position: absolute;"></div>
                 </a>
@@ -1653,11 +1652,8 @@
           <li class="sigProThumb">
             <span class="sigProLinkOuterWrapper">
               <span class="sigProLinkWrapper">
-                <a href="./images/gallery/ceiling/3.jpg" class="sigProLink fancybox-button"
-                  rel="fancybox-button[gallerya638e8de0b]" target="_blank">
-                  <img class="sigProImg" src="./images/gallery/ceiling/3.jpg"
-                    alt="Нажмите для увеличения изображения 3.jpg">
-
+                <a href="./images/gallery/ceiling/3.jpg" class="sigProLink fancybox-button" data-fancybox="gallery">
+                  <img class="sigProImg" src="./images/gallery/ceiling/3.jpg" alt="img">
                   <div class="im_zoom" style="position: absolute; display: none;"></div>
                 </a>
               </span>
@@ -1946,12 +1942,21 @@
 
 
   </script>
+ 
 
-
+  
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
   <script src="./js/main.js"></script>
   <script src="./js/bootstrap.min.js"></script>
   <script src="./js/init.js"></script>
   <script src="./js/scripts.js"></script>
+
+  <script>
+    Fancybox.bind('[data-fancybox="gallery"]', {
+      Thumbs: false,
+      width: 900,
+    });
+  </script>
 
 
 </body>
