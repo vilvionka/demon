@@ -1851,7 +1851,7 @@ div.im_zoom {
   font-weight: normal;
 }
 
-body .plan_table a.b24-web-form-popup-btn-5.sd {
+body .plan_table .b24-web-form-popup-btn-5.sd {
   padding: 8px 20px;
   font-size: 16px;
   max-width: 170px;
@@ -2779,8 +2779,6 @@ body .plan_table a.b24-web-form-popup-btn-5.sd {
 
 }
 
-@media (min-width: 767px) {}
-
 @media (max-width: 490px) {
   .mobilebarmaximenuck .mobilebarmenutitleck {
     font-size: 0;
@@ -2878,13 +2876,12 @@ body .plan_table a.b24-web-form-popup-btn-5.sd {
   }
 }
 
-body a.b24-web-form-popup-btn-5 {
+body .b24-web-form-popup-btn-5 {
   background: #6491b3;
   background: linear-gradient(to bottom, #6491b3 0%, #729ab9 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f40000', endColorstr='#ce0000', GradientType=0);
-  padding: 5px 22px;
+  padding: 10px 22px;
   font-size: 15px;
-  text-transform: uppercase;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -2892,9 +2889,12 @@ body a.b24-web-form-popup-btn-5 {
   border: 1px solid #6467b3;
   display: inline-block;
   transition: all 0.3s ease 0s;
+  font-size: 15px;
+  line-height: 15px;
+  cursor: pointer;
 }
 
-body a.b24-web-form-popup-btn-5.sdk {
+body .b24-web-form-popup-btn-5.sdk {
   background: linear-gradient(to bottom, #6491b3 0%, #729ab9 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#188dcc', endColorstr='#1362a3', GradientType=0);
   padding: 7px 22px;
@@ -2911,7 +2911,7 @@ body a.b24-web-form-popup-btn-5.sdk {
   cursor: pointer;
 }
 
-body a.b24-web-form-popup-btn-5.sd {
+body .b24-web-form-popup-btn-5.sd {
   background: #6491b3;
   background: linear-gradient(to bottom, #6491b3 0%, #729ab9 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f40000', endColorstr='#ce0000', GradientType=0);
@@ -3320,6 +3320,68 @@ input {
   font-size: 18px;
   color: #777;
 }
+.pop_up{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 1000;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: flex-end;
+  display: none;
+}
+.pop_up.active{
+  display: flex;
+}
+.pop_up_form{
+  width: 510px;
+  background-color: #fff;
+  padding: 20px 0;
+  position: relative;
+}
+.pop_up_close{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+.pop_up_form h5{
+  font-weight: bold;
+  color: #222;
+  text-align: center;
+  font-size: 26px;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 0 20px 15px 20px;
+}
+.pop_up_input{
+  display: block;
+  height: 55px;
+  width: calc(100% - 40px);
+  margin: 20px 20px;
+  border-radius: 3px;
+  border: 1px solid #B39364;
+  padding: 0 15px;
+  color: #777;
+  font-size: 18px;
+}
+.pop_up_input::placeholder{
+  color: #777;
+  font-size: 16px;
+}
+.pop_up_button{
+  display: block;
+  height: 60px;
+  width: calc(100% - 40px);
+  margin: 30px 20px 0px;
+  border-radius: 3px;
+  background:  #B39364;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  font-weight: bold;
+  color: 18px;
+}
 
 @media (max-width: 1200px) {
   .container {
@@ -3512,6 +3574,9 @@ input {
   section h2 {
     font-size: 26px;
   }
+  .garbage_sale {
+    font-size: 14px;
+}
 
 
   .home h1 {

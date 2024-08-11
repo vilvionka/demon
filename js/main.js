@@ -52,3 +52,21 @@
   }
 
 })();
+
+
+(() => {
+
+  let button = document.querySelectorAll('.b24-web-form-popup-btn-5');
+  let formPopUp = document.querySelector('.pop_up');
+  let close = document.querySelector('.pop_up_close')
+
+  for(let i = 0; i < button.length; i++){
+    button[i].addEventListener('click', function(){
+      formPopUp.classList.add('active');
+    })
+  }
+  close.addEventListener('click', function(){
+    formPopUp.classList.remove('active');
+  })
+
+})();
