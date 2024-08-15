@@ -3709,7 +3709,9 @@ input {
   flex-direction: column;
   width: calc(100%/3 - 20px);
   text-decoration: none;
+  position: relative;
 }
+
 
 .video_flex a img {
   width: 100%;
