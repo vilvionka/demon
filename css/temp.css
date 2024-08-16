@@ -26,7 +26,7 @@ body {
 
 }
 
-.table, h3 {
+.table, h3, section, h2 {
   scroll-margin: 100px;
 }
 
